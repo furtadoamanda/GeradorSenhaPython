@@ -34,6 +34,8 @@ else:
         print("Falta um número.")
     if not tem_pontuacao:
         print("Falta um caractere especial.")
+    if len(senha_do_usuario) < 8:
+        print("São necessários pelo menos 8 caracteres.")
 
 if not senha_forte:
     print("""Deseja gerar uma nova senha?

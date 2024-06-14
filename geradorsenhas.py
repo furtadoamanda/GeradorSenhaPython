@@ -20,4 +20,3 @@ def geradorsenhas():
 
     print(f"*** Sua nova senha é: {senha[0]}{senha[1]}{senha[2]}{senha[3]}{senha[4]}{senha[5]}{senha[6]}{senha[7]}")
 
-# Funciona, mas está muito feio
